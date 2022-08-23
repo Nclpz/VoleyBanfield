@@ -265,17 +265,22 @@ body {
 
 .overflow{
     overflow: auto;
+    padding: 20px;
 }
 
 .estadisticasfem {
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 .estadisticas_femenino {
     position: relative;
+    transition: scale 1s;
 }
 
+.estadisticas_femenino:hover{
+    scale: 1.05;
+}
 
 .imagenfemenino{
     border-radius: 10px;
@@ -463,9 +468,7 @@ body {
 .multimedia {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    
     gap: 10px;
-
 
 }
 
@@ -534,6 +537,11 @@ body {
 
 .footer_logos {
     width: 40px;
+    transition: scale 1s;
+}
+
+.footer_logos:hover{
+    scale: 1.2;
 }
 
 .avisolegal{
@@ -581,6 +589,10 @@ body {
         width: 350px;
         height: 300px;
     }
+    
+    .overflow{
+        padding: 0;
+    }
 }
 
 
@@ -615,6 +627,10 @@ body {
 
     .multimedia{
         grid-template-columns: 1fr;
+    }
+
+    .overflow{
+        padding: 0;
     }
 
     

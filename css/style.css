@@ -64,10 +64,7 @@ body {
 
 /*TITULOS Y LOGOS*/
 .tituloLogo-menu {
-    background-color: rgb(0, 94, 51);
-    display: flex;
-    flex-direction: column;
-}
+    background-color: rgb(0, 94, 51);}
 
 
 .tituloLogo {
@@ -111,6 +108,7 @@ body {
 
 
 .titulo {
+
     color: white;
     font-size: 24px;
     font-weight: 500;
@@ -137,11 +135,12 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(35, 31, 31);
+    padding: 0px;
 }
 
 
 .menu {
-    padding: 15px 30px 15px 30px;
+    padding: 10px 0px 10px 0px;
     text-align: center;
     display: flex;
     gap: 90px;
@@ -275,7 +274,7 @@ body {
 
 .estadisticas_femenino {
     position: relative;
-    transition: scale 1s;
+    transition: scale 0.5s;
 }
 
 .estadisticas_femenino:hover{
@@ -313,8 +312,62 @@ body {
 }
 
 
+/* FIN ESTADISTICAS */
 
+/* INICIO POSICIONES */
 
+.posiciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+table{
+    display: table;
+}
+
+thead{
+    display: flex;
+}
+thead tr{
+    padding: 1.2rem ;
+}
+.tablauno{
+    padding: 12px;
+    text-align: center;
+}
+
+.tablaimgnom{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+tbody th{
+    padding: 0 2.4rem;
+    text-align: center;
+}
+
+tbody tr{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+th span{
+    margin-left: 16px;
+}
+
+h5{
+    text-align: center;
+}
 
 
 
@@ -369,16 +422,15 @@ body {
 
 
 .calendarioHorario {
-    margin-left: 20px;
-    flex: 2;
+
+
     display: flex;
     font-size: 12px;
 }
 
 .calendarioLogoLocal {
     width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+
 }
 
 .localEnd {
@@ -387,8 +439,7 @@ body {
 
 .calendarioLogoVisita {
     width: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+
 }
 
 .calendarioNombreLocal {
@@ -454,6 +505,50 @@ body {
     color: inherit;
 }
 
+/* equipos */
+
+.flexequipos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tituloequipos{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.tablaequipos{
+    display: table;
+
+}
+
+.theadequipos{
+    padding: 1.2rem;
+    display: table-header-group;
+}
+
+.ththead{
+    opacity: .6;
+    padding: 1.2rem;
+    border-bottom: 1px solid rgb(0, 94, 51)
+}
+
+.tbodyequipos{
+    display: table-row-group;
+}
+
+.trtbody{
+    display: table-row;
+}
+
+.tdtbody{
+    padding: 1.2rem;
+}
+
+.tdtbodynum{
+    padding: 1.2rem;
+    color: rgb(0, 94, 51)
+}
 
 /* multimedia */
 
@@ -561,11 +656,29 @@ body {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 
     .calendarioFecha{
-        width: 100%;
-    } 
+        width: 90vw;
+    }
+
+    .flexequipos{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 768px) {
+
+    .calendarioPartidos{
+        flex-direction: column;
+        
+    }
+
+    .calendarioHorario{
+        padding: 10px 0px 10px 0px
+    }
 
     .menu {
         gap: 7px;
@@ -593,7 +706,16 @@ body {
     .overflow{
         padding: 0;
     }
+
+    .maintitulos{
+        padding: 0px;
+  }
+
+  .posiciones{
+    flex-direction: column;
+  }
 }
+
 
 
 @media screen and (max-width: 480px) {
@@ -633,5 +755,27 @@ body {
         padding: 0;
     }
 
-    
+    .moverathix{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    .banfieldVoley{
+        font-size: 20px;
+    }
+
+    .maintitulos{
+        padding: 0px;
+    }
+    .posiciones{
+    flex-direction: column;
+    }
+
+    h5{
+        padding-top: 20px;
+    }
+  
 }

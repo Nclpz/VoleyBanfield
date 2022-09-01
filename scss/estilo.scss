@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "biotif";
+}
+
+@font-face {
+  font-family: "biotif";
+  src: url(../font/Biotif--bold.woff2);
+}
+
+@font-face {
+  font-family: "biotiflight";
+  src: url(../font/Biotif--light.woff2);
+}
+
+@font-face {
+  font-family: "biotifmedium";
+  src: url(../font/Biotif--medium.woff2);
+}
+
+@font-face {
+  font-family: "biotifregular";
+
+  src: url(../font/Biotif--regular.woff2);
+}
+
+@font-face {
+  font-family: "biotifblack";
+  src: url(../font/Biotif--black.woff2);
+}
+
+@font-face {
+  font-family: "surt";
+  src: url(../font/Surt--bold.woff);
+}
+
+@font-face {
+  font-family: "gotham";
+  src: url(../font/GothamBook.ttf);
+  src: url(../font/GothamLight.ttf);
+}
+
+@font-face {
+  font-family: "gothambold";
+  src: url(../font/Gotham-Bold.otf);
+}
+
+.tituloLogo-menu {
+  background-color: rgb(0, 94, 51);
+  .tituloLogo {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: rgb(0, 94, 51);
+    padding-bottom: 20px;
+    .logo__titulo {
+      display: flex;
+      .tituloSubtitulo {
+        text-decoration: none;
+        padding-top: 15px;
+        text-align: center;
+        padding-left: 16px;
+
+        .titulo {
+          color: white;
+          font-size: 24px;
+          font-weight: 500;
+          font-family: "gotham";
+
+          .banfieldVoley {
+            color: white;
+            font-size: 24px;
+            font-family: "gothambold";
+          }
+        }
+        .subtitulo {
+          font-weight: 600;
+          color: #b49759;
+          font-family: "gotham";
+        }
+      }
+
+      .logo {
+        width: 60px;
+        margin-left: 20px;
+      }
+    }
+    .logoathix {
+      padding-top: 10px;
+      width: 100px;
+      margin-right: 20px;
+      transition: scale 1s;
+    }
+    .logoathix:hover {
+      scale: 1.5;
+    }
+  }
+}
+
+.barramenu {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(35, 31, 31);
+  padding: 0px;
+  .menu {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    display: flex;
+    gap: 90px;
+    overflow: auto;
+    align-items: center;
+    li {
+      display: flex;
+      list-style-type: none;
+
+      a {
+        display: flex;
+        font-family: "biotiflight";
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #b49759;
+      }
+    }
+  }
+}
+
+.flexequipos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
+  div {
+    .tablaequipos {
+      display: table;
+      margin-bottom: 100px;
+
+      .tituloequipos {
+        text-align: center;
+      }
+
+      .theadequipos {
+        padding: 1.2rem;
+        display: table-header-group;
+
+        .ththead {
+          opacity: 0.6;
+          padding: 1.2rem;
+          border-bottom: 1px solid rgb(0, 94, 51);
+        }
+      }
+
+      .tbodyequipos {
+        display: table-row-group;
+
+        .trtbody {
+          display: table-row;
+
+          .tdtbody {
+            padding: 1.2rem;
+          }
+
+          .tdtbodynum {
+            padding: 1.2rem;
+            color: rgb(0, 94, 51);
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(0, 94, 51);
+  height: 150px;
+  bottom: 0;
+  width: 100%;
+
+  .footers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    .footer_uno {
+      display: flex;
+      gap: 20px;
+
+      .logo__footer {
+        width: 75px;
+      }
+
+      .footernombres {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-decoration: none;
+      }
+    }
+    .footer_dos {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      .seguinos {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: "gothambold";
+      }
+      .redes {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        .footer_logos {
+          width: 40px;
+          transition: scale 1s;
+        }
+        .footer_logos:hover {
+          scale: 1.2;
+        }
+      }
+    }
+  }
+  .avisolegal {
+    font-family: "gothambold";
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.banfieldVoley {
+  color: white;
+  font-size: 24px;
+  font-family: "gothambold";
+}
+.subtitulo {
+  font-weight: 600;
+  color: #b49759;
+  font-family: "gotham";
+}

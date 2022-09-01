@@ -1,1108 +1,860 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calendario | C.A.Banfield Voley</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
 
-  <body class="bodycalendario">
-    <header class="tituloLogo-menu">
-      <section class="tituloLogo">
-        <div class="logo__titulo">
-          <a href="../index.html">
-            <img
-              class="logo"
-              src="../imagenes/banfield-logo.png"
-              alt="Logo Banfield"
-          /></a>
-          <a href="../index.html" class="tituloSubtitulo">
-            <span class="titulo"
-              >C.A.<span class="banfieldVoley">Banfield Voley</span></span
-            >
-            <br />
-            <span class="subtitulo">La Pasión vive en el Sur</span>
-          </a>
-        </div>
-        <div class="moverathix">
-          <a href="https://www.athix.com.ar/banfield.html">
-            <img
-              class="logoathix"
-              src="../imagenes/Athix_logo.png"
-              alt="Logo Athix"
-          /></a>
-        </div>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendario | C.A.Banfield Voley</title>
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-      <nav class="navbar navbar-expand-lg bg-light barramenu">
-        <div class="container-fluid g-0">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse barramenu" id="navbarNav">
-            <ul class="navbar-nav menu">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pags/calendario-resultado.html">Calendario</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pags/equipos.html">Equipos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pags/estadisticas.html">Estadisticas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pags/posiciones.html">Posiciones</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pags/videos.html">Multimedia</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main class="mainCalendario">
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 1</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              julio 13/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">GEI</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/gei.png"
-                      alt="logoGEI"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">3 : 1 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 1 Masculino Visitante</div>
-          </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              julio 15/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">GLORIAS B</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/glorias.png"
-                      alt="logoglorias"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">2 : 3 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 1 Femenino Visitante</div>
-          </div>
+<body class="bodycalendario">
+  <header class="tituloLogo-menu">
+    <section class="tituloLogo">
+      <div class="logo__titulo">
+        <a href="../index.html">
+          <img class="logo" src="../imagenes/banfield-logo.png" alt="Logo Banfield" /></a>
+        <a href="../index.html" class="tituloSubtitulo">
+          <span class="titulo">C.A.<span class="banfieldVoley">Banfield Voley</span></span>
+          <br />
+          <span class="subtitulo">La Pasión vive en el Sur</span>
+        </a>
+      </div>
+      <div class="moverathix">
+        <a href="https://www.athix.com.ar/banfield.html" target="_blank">
+          <img class="logoathix" src="../imagenes/Athix_logo.png" alt="Logo Athix" /></a>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-light barramenu">
+      <div class="container-fluid g-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse barramenu" id="navbarNav">
+          <ul class="navbar-nav menu">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pags/calendario-resultado.html">Calendario</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pags/equipos.html">Equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pags/estadisticas.html">Estadisticas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pags/posiciones.html">Posiciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pags/videos.html">Multimedia</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 2</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              julio 20/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </nav>
+  </header>
+  <main class="mainCalendario">
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 1</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            julio 13/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">GEI</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/gei.png" alt="logoGEI" />
                 </div>
-                <span class="calendarioVs">1 : 3 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/muñiz.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">MUÑIZ</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 1 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 2 Masculino Local</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              julio 29/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">3 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/lomasm.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">LOMAS M</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 2 Femenino Local</div>
-          </div>
+          <div class="calendarioHorario">Fecha 1 Masculino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 3</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              julio 27/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">JUVA</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/juva.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            julio 15/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">GLORIAS B</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/glorias.png" alt="logoglorias" />
                 </div>
-                <span class="calendarioVs">3 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">2 : 3 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 3 Masculino Visitante</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 01/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">DBANF</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/dbanf.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 3 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 3 Femenino Visitante</div>
-          </div>
+          <div class="calendarioHorario">Fecha 1 Femenino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 4</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 03/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 2</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            julio 20/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">3 : 1 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/pac.jpg"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">PAC</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">1 : 3 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/muñiz.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">MUÑIZ</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 4 Masculino Local</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 05/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">LANUS</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/Lanus.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">2 : 3 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 4 Femenino Visitante</div>
-          </div>
+          <div class="calendarioHorario">Fecha 2 Masculino Local</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 5</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 09/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">HARRODS</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/harrods.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            julio 29/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">1 : 3 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/lomasm.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">LOMAS M</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 5 Masculino Visitante</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 11/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">3 : 2 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/untref.jpg"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">UNTREF</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 5 Femenino Local</div>
-          </div>
+          <div class="calendarioHorario">Fecha 2 Femenino Local</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 6</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 17/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">DBANF</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/dbanf.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 3</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            julio 27/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">JUVA</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/juva.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">3 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 6 Masculino Visitante</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 19/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">MORON</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/moron.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">3 : 2 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 6 Femenino Visitante</div>
-          </div>
+          <div class="calendarioHorario">Fecha 3 Masculino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 7</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 24/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 01/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">DBANF</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/dbanf.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">2 : 3 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/lomasZ.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">MLOMASZ B</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 3 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 7 Masculino Local</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 26/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/comu.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">COMU</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 7 Femenino Local</div>
-          </div>
+          <div class="calendarioHorario">Fecha 3 Femenino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 8</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 31/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 4</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 03/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/gei.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">GEI</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 1 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/pac.jpg" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">PAC</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 8 Masculino Local</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 02/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/glorias.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">GLORIAS B</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 8 Femenino Local</div>
-          </div>
+          <div class="calendarioHorario">Fecha 4 Masculino Local</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 9</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Agosto 22/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 05/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">LANUS</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/Lanus.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">3 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/dbanf.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">DBANF</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">2 : 3 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 9 Femenino Local</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 07/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">MUÑIZ</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/muñiz.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 9 Masculino Visitante</div>
-          </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 12/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">MLOMASZ B</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/lomasZ.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 9 Masculino Visitante</div>
-          </div>
+          <div class="calendarioHorario">Fecha 4 Femenino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 10</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 14/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 5</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 09/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">HARRODS</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/harrods.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/juva.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">JUVA</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">1 : 3 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 10 Masculino Local</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 16/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">LOMAS M</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/lomasm.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 10 Femenino Visitante</div>
-          </div>
+          <div class="calendarioHorario">Fecha 5 Masculino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 11</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 21/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">PAC</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/pac.jpg"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 11/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 2 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/untref.jpg" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">UNTREF</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 11 Masculino Visitante</div>
           </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 21/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">COMU</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/comu.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 11 Femenino Visitante</div>
-          </div>
-        </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 23/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
-                </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/Lanus.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">Lanus</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="calendarioHorario">Fecha 11 Femenino Local</div>
-          </div>
+          <div class="calendarioHorario">Fecha 5 Femenino Local</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 12</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 28/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 6</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 17/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">DBANF</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/dbanf.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/harrods.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">HARRODS</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 12 Masculino Local</div>
           </div>
+          <div class="calendarioHorario">Fecha 6 Masculino Visitante</div>
         </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Septiembre 30/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">UNTREF</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/untref.jpg"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 19/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">MORON</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/moron.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">BANFIELD</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 2 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 12 Femenino Visitante</div>
           </div>
+          <div class="calendarioHorario">Fecha 6 Femenino Visitante</div>
         </div>
       </div>
-      <div class="marginFechas">
-        <div class="calendarioFecha">Fecha 13</div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Octubre 05/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 7</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 24/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/dbanf.png"
-                      alt="logomuñiz"
-                    />
-                    <span class="calendarioNombreVisita">DBANF</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">2 : 3 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/lomasZ.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">MLOMASZ B</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 13 Masculino Local</div>
           </div>
+          <div class="calendarioHorario">Fecha 7 Masculino Local</div>
         </div>
-        <div class="displayblock">
-          <div class="calendarioPartidos">
-            <div class="calendarioHorario">
-              Octubre 07/ 2022 21:30hs
-            </div>
-            <div class="calendarioNombreLogo">
-              <div>
-                <div class="calendarioLocal">
-                  <div class="localEnd">
-                    <span class="calendarioNombreLocal">BANFIELD</span>
-                    <img
-                      class="calendarioLogoLocal"
-                      src="../imagenes/banfield-logo.png"
-                      alt="logobanfield"
-                    />
-                  </div>
-                  <div class="localEnd"></div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 26/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
                 </div>
-                <span class="calendarioVs">0 : 0 </span>
-                <div class="calendarioVisita">
-                  <div>
-                    <img
-                      class="calendarioLogoVisita"
-                      src="../imagenes/moron.png"
-                      alt="logolomasm"
-                    />
-                    <span class="calendarioNombreVisita">MORON</span>
-                  </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/comu.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">COMU</span>
                 </div>
               </div>
             </div>
-            <div class="calendarioHorario">Fecha 13 Femenino Local</div>
           </div>
+          <div class="calendarioHorario">Fecha 7 Femenino Local</div>
         </div>
       </div>
-    </main>
-    <footer class="footer">
-      <div class="footers">
-        <div class="footer_uno">
-          <a href="../index.html"
-            ><img
-              class="logo__footer"
-              src="../imagenes/banfield-logo.png"
-              alt="Logo banfield"
-          /></a>
-          <div class="footernombres">
-            <a class="footernombres" href="../index.html">
-              <span class="banfieldVoley">Banfield Voley</span
-              ><span class="subtitulo">La pasión vive en el sur </span></a
-            >
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 8</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 31/ 2022 21:30hs
           </div>
-        </div>
-        <div class="footer_dos">
-          <span class="seguinos">Seguinos!</span>
-          <div class="redes">
-            <a href="https://www.instagram.com/voley.banfield/">
-              <img class="footer_logos" src="../imagenes/instagram.png" alt=""
-            /></a>
-            <a href="https://www.facebook.com/Voley-banfield-1703902229872701"
-              ><img class="footer_logos" src="../imagenes/Facebook.png" alt=""
-            /></a>
-            <a href="https://www.youtube.com/channel/UCou1zB6cugGCEHd0mo2Nczw"
-              ><img class="footer_logos" src="../imagenes/YouTube.png" alt=""
-            /></a>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/gei.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">GEI</span>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="calendarioHorario">Fecha 8 Masculino Local</div>
         </div>
       </div>
-      <div class="avisolegal">
-        Copyright (C) 2022 VoleyBanfield | Todos los derechos reservados
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 02/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/glorias.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">GLORIAS B</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 8 Femenino Local</div>
+        </div>
       </div>
-    </footer>
-    <script src="../js/bootstrap.bundle.min.js"></script>
-  </body>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 9</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Agosto 22/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">3 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/dbanf.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">DBANF</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 9 Femenino Local</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 07/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">MUÑIZ</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/muñiz.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 9 Masculino Visitante</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 12/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">MLOMASZ B</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/lomasZ.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 9 Masculino Visitante</div>
+        </div>
+      </div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 10</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 14/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/juva.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">JUVA</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 10 Masculino Local</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 16/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">LOMAS M</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/lomasm.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 10 Femenino Visitante</div>
+        </div>
+      </div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 11</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 21/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">PAC</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/pac.jpg" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 11 Masculino Visitante</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 21/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">COMU</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/comu.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 11 Femenino Visitante</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 23/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/Lanus.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">Lanus</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 11 Femenino Local</div>
+        </div>
+      </div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 12</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 28/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/harrods.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">HARRODS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 12 Masculino Local</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Septiembre 30/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">UNTREF</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/untref.jpg" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/banfield-logo.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">BANFIELD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 12 Femenino Visitante</div>
+        </div>
+      </div>
+    </div>
+    <div class="marginFechas">
+      <div class="calendarioFecha">Fecha 13</div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Octubre 05/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/dbanf.png" alt="logomuñiz" />
+                  <span class="calendarioNombreVisita">DBANF</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 13 Masculino Local</div>
+        </div>
+      </div>
+      <div class="displayblock">
+        <div class="calendarioPartidos">
+          <div class="calendarioHorario">
+            Octubre 07/ 2022 21:30hs
+          </div>
+          <div class="calendarioNombreLogo">
+            <div>
+              <div class="calendarioLocal">
+                <div class="localEnd">
+                  <span class="calendarioNombreLocal">BANFIELD</span>
+                  <img class="calendarioLogoLocal" src="../imagenes/banfield-logo.png" alt="logobanfield" />
+                </div>
+                <div class="localEnd"></div>
+              </div>
+              <span class="calendarioVs">0 : 0 </span>
+              <div class="calendarioVisita">
+                <div>
+                  <img class="calendarioLogoVisita" src="../imagenes/moron.png" alt="logolomasm" />
+                  <span class="calendarioNombreVisita">MORON</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="calendarioHorario">Fecha 13 Femenino Local</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footers">
+      <div class="footer_uno">
+        <a href="../index.html"><img class="logo__footer" src="../imagenes/banfield-logo.png" alt="Logo banfield" /></a>
+        <div class="footernombres">
+          <a class="footernombres" href="../index.html">
+            <span class="banfieldVoley">Banfield Voley</span><span class="subtitulo">La pasión vive en el sur
+            </span></a>
+        </div>
+      </div>
+      <div class="footer_dos">
+        <span class="seguinos">Seguinos!</span>
+        <div class="redes">
+          <a href="https://www.instagram.com/voley.banfield/" target="_blank">
+            <img class="footer_logos" src="../imagenes/instagram.png" alt="" /></a>
+          <a href="https://www.facebook.com/Voley-banfield-1703902229872701" target="_blank"><img class="footer_logos"
+              src="../imagenes/Facebook.png" alt="" /></a>
+          <a href="https://www.youtube.com/channel/UCou1zB6cugGCEHd0mo2Nczw" target="_blank"><img class="footer_logos"
+              src="../imagenes/YouTube.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="avisolegal">
+      Copyright (C) 2022 VoleyBanfield | Todos los derechos reservados
+    </div>
+  </footer>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

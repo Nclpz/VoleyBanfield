@@ -8,6 +8,9 @@ body {
   font-family: "biotif";
 }
 
+$colorbanfield:rgb(0, 94, 51);
+$colorsecundariobanfield:#b49759;  
+
 @font-face {
   font-family: "biotif";
   src: url(../font/Biotif--bold.woff2);
@@ -51,13 +54,13 @@ body {
 }
 
 .tituloLogo-menu {
-  background-color: rgb(0, 94, 51);
+  background-color:$colorbanfield;
   .tituloLogo {
     text-decoration: none;
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
-    background-color: rgb(0, 94, 51);
+    background-color:$colorbanfield;
     padding-bottom: 20px;
     .logo__titulo {
       display: flex;
@@ -81,7 +84,7 @@ body {
         }
         .subtitulo {
           font-weight: 600;
-          color: #b49759;
+          color:$colorsecundariobanfield;
           font-family: "gotham";
         }
       }
@@ -127,7 +130,7 @@ body {
         text-decoration: none;
       }
       a:hover {
-        color: #b49759;
+        color:$colorsecundariobanfield;
       }
     }
   }
@@ -154,7 +157,7 @@ body {
         .ththead {
           opacity: 0.6;
           padding: 1.2rem;
-          border-bottom: 1px solid rgb(0, 94, 51);
+          border-bottom: 1px solid $colorbanfield;
         }
       }
 
@@ -170,7 +173,7 @@ body {
 
           .tdtbodynum {
             padding: 1.2rem;
-            color: rgb(0, 94, 51);
+            color: $colorbanfield;
           }
         }
       }
@@ -182,7 +185,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(0, 94, 51);
+  background-color: $colorbanfield;
   height: 150px;
   bottom: 0;
   width: 100%;
@@ -250,6 +253,6 @@ body {
 }
 .subtitulo {
   font-weight: 600;
-  color: #b49759;
+  color:$colorsecundariobanfield;
   font-family: "gotham";
 }

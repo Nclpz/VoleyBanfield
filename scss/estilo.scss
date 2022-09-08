@@ -8,8 +8,8 @@ body {
   font-family: "biotif";
 }
 
-$colorbanfield:rgb(0, 94, 51);
-$colorsecundariobanfield:#b49759;  
+$colorbanfield: rgb(0, 94, 51);
+$colorsecundariobanfield: #b49759;
 
 @font-face {
   font-family: "biotif";
@@ -53,14 +53,18 @@ $colorsecundariobanfield:#b49759;
   src: url(../font/Gotham-Bold.otf);
 }
 
+@mixin displayjustify($display, $justify) {
+  display: $display;
+  justify-content: $justify;
+}
+
 .tituloLogo-menu {
-  background-color:$colorbanfield;
+  background-color: $colorbanfield;
   .tituloLogo {
+    @include displayjustify(flex, space-around);
     text-decoration: none;
-    display: flex;
-    justify-content: space-around;
     padding-top: 20px;
-    background-color:$colorbanfield;
+    background-color: $colorbanfield;
     padding-bottom: 20px;
     .logo__titulo {
       display: flex;
@@ -84,7 +88,7 @@ $colorsecundariobanfield:#b49759;
         }
         .subtitulo {
           font-weight: 600;
-          color:$colorsecundariobanfield;
+          color: $colorsecundariobanfield;
           font-family: "gotham";
         }
       }
@@ -107,8 +111,7 @@ $colorsecundariobanfield:#b49759;
 }
 
 .barramenu {
-  display: flex;
-  justify-content: center;
+  @include displayjustify(flex, center);
   background-color: rgb(35, 31, 31);
   padding: 0px;
   .menu {
@@ -130,15 +133,14 @@ $colorsecundariobanfield:#b49759;
         text-decoration: none;
       }
       a:hover {
-        color:$colorsecundariobanfield;
+        color: $colorsecundariobanfield;
       }
     }
   }
 }
 
 .flexequipos {
-  display: flex;
-  justify-content: space-evenly;
+  @include displayjustify(flex, space-evenly);
   margin-top: 100px;
 
   div {
@@ -182,17 +184,15 @@ $colorsecundariobanfield:#b49759;
 }
 
 .footer {
-  display: flex;
+  @include displayjustify(flex, column);
   flex-direction: column;
-  justify-content: center;
   background-color: $colorbanfield;
   height: 150px;
   bottom: 0;
   width: 100%;
 
   .footers {
-    display: flex;
-    justify-content: space-around;
+    @include displayjustify(flex, space-around);
     align-items: center;
     width: 100%;
 
@@ -205,9 +205,8 @@ $colorsecundariobanfield:#b49759;
       }
 
       .footernombres {
-        display: flex;
+        @include displayjustify(flex, center);
         flex-direction: column;
-        justify-content: center;
         text-decoration: none;
       }
     }
@@ -218,8 +217,7 @@ $colorsecundariobanfield:#b49759;
 
       .seguinos {
         font-size: 30px;
-        display: flex;
-        justify-content: center;
+        @include displayjustify(flex, center);
         color: white;
         font-family: "gothambold";
       }
@@ -228,12 +226,24 @@ $colorsecundariobanfield:#b49759;
         gap: 15px;
         align-items: center;
 
-        .footer_logos {
+        .footerig {
           width: 40px;
           transition: scale 1s;
+          padding-bottom: 15px;
+
+          &:hover {
+            scale: 1.2;
+          }
         }
-        .footer_logos:hover {
-          scale: 1.2;
+
+        .footerface {
+          @extend .footerig;
+          width: 35px
+        }
+
+        .footeryoutube {
+          @extend .footerig;
+          width: 50px;
         }
       }
     }
@@ -241,8 +251,7 @@ $colorsecundariobanfield:#b49759;
   .avisolegal {
     font-family: "gothambold";
     color: white;
-    display: flex;
-    justify-content: center;
+    @include displayjustify(flex, center);
   }
 }
 
@@ -253,6 +262,6 @@ $colorsecundariobanfield:#b49759;
 }
 .subtitulo {
   font-weight: 600;
-  color:$colorsecundariobanfield;
+  color: $colorsecundariobanfield;
   font-family: "gotham";
 }

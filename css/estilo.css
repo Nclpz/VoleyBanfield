@@ -42,9 +42,9 @@ body {
 .tituloLogo-menu {
   background-color: #005e33; }
   .tituloLogo-menu .tituloLogo {
-    text-decoration: none;
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
     padding-top: 20px;
     background-color: #005e33;
     padding-bottom: 20px; }
@@ -131,8 +131,8 @@ body {
 
 .footer {
   display: flex;
+  justify-content: column;
   flex-direction: column;
-  justify-content: center;
   background-color: #005e33;
   height: 150px;
   bottom: 0;
@@ -149,8 +149,8 @@ body {
         width: 75px; }
       .footer .footers .footer_uno .footernombres {
         display: flex;
-        flex-direction: column;
         justify-content: center;
+        flex-direction: column;
         text-decoration: none; }
     .footer .footers .footer_dos {
       display: flex;
@@ -166,11 +166,16 @@ body {
         display: flex;
         gap: 15px;
         align-items: center; }
-        .footer .footers .footer_dos .redes .footer_logos {
+        .footer .footers .footer_dos .redes .footerig, .footer .footers .footer_dos .redes .footerface, .footer .footers .footer_dos .redes .footeryoutube {
           width: 40px;
-          transition: scale 1s; }
-        .footer .footers .footer_dos .redes .footer_logos:hover {
-          scale: 1.2; }
+          transition: scale 1s;
+          padding-bottom: 15px; }
+          .footer .footers .footer_dos .redes .footerig:hover, .footer .footers .footer_dos .redes .footerface:hover, .footer .footers .footer_dos .redes .footeryoutube:hover {
+            scale: 1.2; }
+        .footer .footers .footer_dos .redes .footerface {
+          width: 35px; }
+        .footer .footers .footer_dos .redes .footeryoutube {
+          width: 50px; }
   .footer .avisolegal {
     font-family: "gothambold";
     color: white;

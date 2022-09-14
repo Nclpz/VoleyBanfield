@@ -1,0 +1,232 @@
+@media screen and (max-width: 1480px) {
+  .maintitulos{
+    .proxpartidos{
+      justify-content: start;
+    }
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .bodycalendario {
+    .mainCalendario {
+      .marginFechas {
+        .calendarioFecha {
+          width: 90vw;
+        }
+      }
+    }
+  }
+
+  .flexequipos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .barramenu {
+    padding: 10px 10px 10px 10px;
+    .menu {
+      padding-bottom: 20px;
+      gap: 15px;
+      li {
+        a {
+          width: 90vw;
+          justify-content: center;
+          border-bottom: 1px solid $colorsecundariobanfield;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .calendarioPartidos {
+    flex-direction: column;
+  }
+
+  .calendarioHorario {
+    padding: 10px 0px 10px 0px;
+  }
+
+  .menu {
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .maintitulos {
+    .proxpartidos{
+      overflow: auto;
+      justify-content: start;
+    }
+    .titulos{
+      font-size: 27px;
+    }
+    .overflow {
+      .estadisticasfem {
+        gap: 30px;
+        .estadisticas_femenino {
+          .text__estadisticas {
+            left: 180px;
+          }
+          .imagenfemenino {
+            width: 450px;
+          }
+        }
+      }
+    }
+  }
+
+  .flexequipos{
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+  .multiflex {
+    .multimedia {
+      grid-template-columns: 1fr 1fr;
+
+      .imgmulti {
+        width: 350px;
+        height: 300px;
+      }
+    }
+  }
+
+  .overflow {
+    padding: 0;
+  }
+
+  .maintitulos {
+    padding: 0px;
+  }
+
+  .posiciones {
+    flex-direction: column;
+    h5{
+      padding-top: 30px;
+    }
+  }
+
+  .footer{
+    .avisolegal{
+      font-size: 13px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+
+  .tituloLogo-menu{
+    .tituloLogo{
+      padding: 10px;
+      .logo__titulo{
+        .logo{
+          width: 50px;
+        }
+        .tituloSubtitulo{
+          .titulo{
+            font-size: 20px;
+            .banfieldVoley{
+              font-size: 20px;
+            }
+          }
+          .subtitulo{
+            display: none;
+          }
+        }
+      }
+      .logoathix{
+        width: 80px;
+      }
+    }
+  }
+
+
+
+
+
+
+
+  .maintitulos {
+    padding: 0px;
+    .titulos{
+      font-size: 25px;
+    }
+    .proxpartidos{
+      justify-content: start;
+    }
+    .overflow {
+      .estadisticasfem {
+        .estadisticas_femenino {
+          .text__mejor {
+            font-size: 12px;
+          }
+          .text__estadisticas {
+            left: 115px;
+          }
+          .imagenfemenino {
+            width: 350px;
+          }
+        }
+      }
+    }
+  }
+
+  .multiflex {
+    .multimedia {
+      grid-template-columns: 1fr;
+    }
+  }
+
+
+
+  .footer{
+    .footers{
+      gap: 10px;
+      padding-bottom: 10px;
+      flex-direction: column;
+      background-color: $colorbanfield;
+      .footer_uno{
+        justify-content: center;
+        width: 90vw;
+        border-bottom: 1px solid $colorsecundariobanfield;
+        padding-bottom: 10px;
+        gap: 0;
+        .logo__footer{
+          padding-top:10px ;
+          width: 50px;
+        }
+        .footernombres{
+          .banfieldVoley{
+            display: none;
+          }
+          .subtitulo{
+            display: none;
+          }
+        }
+      }
+      .footer_dos{
+        .seguinos{
+          font-size: 25px;
+        }
+        .redes{
+          gap: 50px;
+        }
+      }
+    }
+    iframe{
+      display: flex;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .avisolegal{
+      background-color: $colorbanfield;
+      font-size: 10px;
+      padding-bottom: 15px;
+    }
+  }
+}

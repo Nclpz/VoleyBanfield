@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::selection{
+        background-color: $coloroscurobanfield;
+        color: $colorsecundariobanfield;
+    }
+  }
+
+  html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  

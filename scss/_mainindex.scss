@@ -1,0 +1,168 @@
+.maintitulos {
+  padding-left: 40px;
+
+  .titulos {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #282828;
+    font-size: 32px;
+  }
+
+  .proxpartidos {
+    @include displayjustify(flex, center);
+    overflow: auto;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    font-family: "biotifregular";
+
+    .partidos {
+      margin-left: 30px;
+      margin-right: 60px;
+      margin-top: 10px;
+
+      .horario {
+        font-family: "biotifmedium";
+      }
+
+      .nombreshorario {
+        display: inline-block;
+        width: 200px;
+
+        .alinear {
+          width: 100%;
+          max-width: 100%;
+          display: flex;
+          align-items: center;
+
+          .logospart {
+            width: 30px;
+          }
+          .nombresequipos {
+            font-family: "biotif";
+            margin-left: 15px;
+            width: 100%;
+            max-width: 100%;
+            display: flex;
+
+            .nombreEquipo {
+              width: 200%;
+              max-width: 200%;
+            }
+
+            .resultado {
+              width: 100%;
+              max-width: 100%;
+              @include displayjustify(flex, end)
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .overflow {
+    overflow: auto;
+    padding: 20px;
+
+    .estadisticasfem {
+      display: flex;
+      gap: 20px;
+
+      .estadisticas_femenino {
+        position: relative;
+        transition: scale 0.5s;
+
+        &:hover {
+          scale: 1.05;
+        }
+
+        .text__mejor {
+          position: absolute;
+          top: 10px;
+          left: 10px;
+          color: white;
+          font-size: 16px;
+          font-family: "surt";
+        }
+
+        .imagenfemenino {
+          border-radius: 10px;
+          width: 600px;
+        }
+
+        .text__estadisticas {
+          text-align: center;
+          position: absolute;
+          bottom: 10px;
+          left: 275px;
+          font-family: "biotif";
+
+          .textuno {
+            font-size: 32px;
+          }
+
+          .textdos {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .posiciones {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    h5 {
+      text-align: center;
+      border-bottom: 1px solid $colorbanfield;
+    }
+
+    table {
+      display: table;
+
+      thead {
+        display: flex;
+
+        tr {
+          padding: 1.2rem;
+
+          .tablauno {
+            padding: 12px;
+            text-align: center;
+          }
+        }
+      }
+
+      tbody {
+        display: table-row-group;
+        vertical-align: middle;
+
+        tr {
+          display: flex;
+          height: 50px;
+          align-items: center;
+
+          th {
+            padding: 0 2.4rem;
+            text-align: center;
+          }
+
+          .tablaimgnom {
+            display: flex;
+            align-items: center;
+
+            .logospart {
+              width: 30px;
+            }
+
+            span {
+              margin-left: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.footer {
+  @include displayjustify(flex, start);
+  flex-direction: column;
+  background-color: $colorbanfield;
+  bottom: 0;
+  width: 100%;
+  margin-top: 50px;
+  align-items: center;
+
+  .footers {
+    @include displayjustify(flex, space-around);
+    align-items: center;
+    width: 100%;
+
+    .footer_uno {
+      display: flex;
+      gap: 20px;
+
+      .logo__footer {
+        width: 75px;
+      }
+
+      .footernombres {
+        @include displayjustify(flex, center);
+        flex-direction: column;
+        text-decoration: none;
+
+        .banfieldVoley {
+          color: white;
+          font-size: 24px;
+          font-family: "gothambold";
+        }
+        .subtitulo {
+          font-weight: 600;
+          color: $colorsecundariobanfield;
+          font-family: "gotham";
+        }
+      }
+    }
+    .footer_dos {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+
+      .seguinos {
+        font-size: 30px;
+        @include displayjustify(flex, center);
+        color: white;
+        font-family: "gothambold";
+      }
+      .redes {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+
+        .footerig {
+          width: 40px;
+          transition: scale 1s;
+          padding-bottom: 15px;
+
+          &:hover {
+            scale: 1.2;
+          }
+        }
+
+        .footerface {
+          @extend .footerig;
+          width: 35px;
+        }
+
+        .footeryoutube {
+          @extend .footerig;
+          width: 50px;
+        }
+      }
+    }
+  }
+  iframe{
+    background-color: $colorbanfield;
+    display: none;
+  }
+  .avisolegal {
+    padding-bottom: 10px;
+    font-family: "gothambold";
+    color: white;
+    @include displayjustify(flex, center);
+  }
+}

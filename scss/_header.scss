@@ -1,0 +1,82 @@
+
+.tituloLogo-menu {
+  background-color: $colorbanfield;
+  .tituloLogo {
+    @include displayjustify(flex, space-around);
+    text-decoration: none;
+    padding-top: 20px;
+    background-color: $colorbanfield;
+    padding-bottom: 20px;
+    .logo__titulo {
+      display: flex;
+      .tituloSubtitulo {
+        text-decoration: none;
+        padding-top: 15px;
+        text-align: center;
+        padding-left: 16px;
+
+        .titulo {
+          color: white;
+          font-size: 24px;
+          font-weight: 500;
+          font-family: "gotham";
+
+          .banfieldVoley {
+            color: white;
+            font-size: 24px;
+            font-family: "gothambold";
+          }
+        }
+        .subtitulo {
+          font-weight: 600;
+          color: $colorsecundariobanfield;
+          font-family: "gotham";
+        }
+      }
+
+      .logo {
+        width: 60px;
+        margin-left: 20px;
+      }
+    }
+    .logoathix {
+      padding-top: 10px;
+      width: 100px;
+      margin-right: 20px;
+      transition: scale 1s;
+    }
+    .logoathix:hover {
+      scale: 1.5;
+    }
+  }
+}
+
+.barramenu {
+  @include displayjustify(flex, center);
+  background-color: $coloroscurobanfield;
+  padding: 0px;
+
+  .menu {
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    display: flex;
+    gap: 90px;
+    overflow: auto;
+    align-items: center;
+    li {
+      display: flex;
+      list-style-type: none;
+
+      a {
+        display: flex;
+        font-family: "biotiflight";
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $colorsecundariobanfield;
+      }
+    }
+  }
+}

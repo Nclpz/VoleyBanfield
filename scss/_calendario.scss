@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "surt";
+    src: url(../font/Surt--bold.woff);
+  }
+
+.bodycalendario {
+  display: flex;
+  flex-direction: column;
+
+  .mainCalendario {
+    font-family: "surt";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .marginFechas {
+      display: flex;
+      flex-direction: column;
+
+      .calendarioFecha {
+        display: flex;
+        width: 900px;
+        justify-content: center;
+        background-color: #282828;
+        color: white;
+        text-align: center;
+        padding: 16px 16px 12px 16px;
+        border-radius: 8px 8px 0 0;
+        margin-top: 50px;
+        font-size: 20px;
+        letter-spacing: 0.05em;
+      }
+      .calendarioPartidos {
+        align-items: center;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid $colorbanfield;
+
+        .calendarioHorario {
+          display: flex;
+          font-size: 12px;
+        }
+
+        .calendarioNombreLogo {
+          width: 100%;
+          max-width: 100%;
+          align-items: center;
+          flex: 5;
+          display: flex;
+
+          div {
+            width: 100%;
+            max-width: 100%;
+            align-items: center;
+            text-align: center;
+            display: flex;
+            .calendarioLocal {
+              flex-direction: row-reverse;
+
+              .localEnd {
+                justify-content: end;
+
+                .calendarioNombreLocal {
+                  margin-right: 10px;
+                  padding-top: 20px;
+                  position: relative;
+                  bottom: 10px;
+                  font-size: 14px;
+                  justify-content: end;
+                }
+                .calendarioLogoLocal {
+                  width: 30px;
+                }
+              }
+            }
+
+            .calendarioVs {
+              width: 120px;
+              padding-top: 10px;
+              font-size: 14px;
+            }
+
+            .calendarioVisita {
+              .calendarioLogoVisita {
+                width: 30px;
+              }
+
+              .calendarioNombreVisita {
+                @extend .calendarioNombreLocal;
+                margin-right: 0px;
+                margin-left: 10px;
+                font-size: 14px;
+                justify-content: start;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

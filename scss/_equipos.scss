@@ -1,0 +1,43 @@
+.flexequipos {
+    @include displayjustify(flex, space-evenly);
+    margin-top: 50px;
+  
+    div {
+      .tablaequipos {
+        display: table;
+        margin-bottom: 50px;
+  
+        .tituloequipos {
+          text-align: center;
+        }
+  
+        .theadequipos {
+          padding: 1.2rem;
+          display: table-header-group;
+  
+          .ththead {
+            opacity: 0.6;
+            padding: 1.2rem;
+            border-bottom: 1px solid $colorbanfield;
+          }
+        }
+  
+        .tbodyequipos {
+          display: table-row-group;
+  
+          .trtbody {
+            display: table-row;
+  
+            .tdtbody {
+              padding: 1.2rem;
+            }
+  
+            .tdtbodynum {
+              padding: 1.2rem;
+              color: $colorbanfield;
+            }
+          }
+        }
+      }
+    }
+  }

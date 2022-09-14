@@ -1,0 +1,50 @@
+$colorbanfield: rgb(0, 94, 51);
+$colorsecundariobanfield: #b49759;
+$coloroscurobanfield: rgb(35, 31, 31);
+
+@font-face {
+    font-family: "biotif";
+    src: url(../font/Biotif--bold.woff2);
+  }
+  
+  @font-face {
+    font-family: "biotiflight";
+    src: url(../font/Biotif--light.woff2);
+  }
+  
+  @font-face {
+    font-family: "biotifmedium";
+    src: url(../font/Biotif--medium.woff2);
+  }
+  
+  @font-face {
+    font-family: "biotifregular";
+  
+    src: url(../font/Biotif--regular.woff2);
+  }
+  
+  @font-face {
+    font-family: "biotifblack";
+    src: url(../font/Biotif--black.woff2);
+  }
+  
+  @font-face {
+    font-family: "surt";
+    src: url(../font/Surt--bold.woff);
+  }
+  
+  @font-face {
+    font-family: "gotham";
+    src: url(../font/GothamBook.ttf);
+    src: url(../font/GothamLight.ttf);
+  }
+  
+  @font-face {
+    font-family: "gothambold";
+    src: url(../font/Gotham-Bold.otf);
+  }
+  
+  @mixin displayjustify($display, $justify) {
+    display: $display;
+    justify-content: $justify;
+  }

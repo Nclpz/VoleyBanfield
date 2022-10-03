@@ -6,6 +6,7 @@
     padding-left: 10px;
     color: #282828;
     font-size: 32px;
+    text-decoration: none;
   }
 
   .proxpartidos {
@@ -63,6 +64,7 @@
   .overflow {
     overflow: auto;
     padding: 20px;
+    margin-bottom: 50px;
 
     .estadisticasfem {
       display: flex;
@@ -94,7 +96,7 @@
           text-align: center;
           position: absolute;
           bottom: 10px;
-          left: 275px;
+          left: 245px;
           font-family: "biotif";
 
           .textuno {

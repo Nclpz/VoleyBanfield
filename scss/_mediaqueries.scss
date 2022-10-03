@@ -38,10 +38,25 @@
       }
     }
   }
+
+  .estadisticasgenero{
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
 }
 
 
 @media screen and (max-width: 768px) {
+
+  .flexlinks{
+    overflow: auto;
+    justify-content: start;
+    ul{
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
   .calendarioPartidos {
     flex-direction: column;
   }
@@ -89,8 +104,8 @@
       grid-template-columns: 1fr 1fr;
 
       .imgmulti {
-        width: 350px;
-        height: 300px;
+        width: 250px;
+        height: 200px;
       }
     }
   }

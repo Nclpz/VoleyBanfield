@@ -1,0 +1,93 @@
+.estadisticasgenero{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    gap: 10px;
+
+    .generoselec{
+        background-color: $coloroscurobanfield;
+    }
+
+    ul{
+        padding: 0.5rem 1.6rem;
+        border-radius: 10px;
+        box-shadow: 0.1rem 0.1rem 0.3rem #8a8a8a;
+        a{
+            color: $colorsecundariobanfield;
+            text-decoration: none;
+        }
+    }
+
+}
+
+.flexlinks {
+  display: flex;
+  justify-content: center;
+
+  .pagseleccionada {
+    a {
+      color: $colorsecundariobanfield;
+    }
+    padding-bottom: 2px;
+    border-bottom: 2px solid $colorsecundariobanfield;
+  }
+  
+  ul {
+    padding: 0;
+    margin-left: 2rem;
+    a {
+      text-decoration: none;
+      color: $coloroscurobanfield;
+    }
+    a:hover {
+      transition: color 0.5s;
+      color: $colorsecundariobanfield;
+    }
+  }
+}
+
+.tablaflex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .tablaequipos {
+    display: table;
+    margin-bottom: 50px;
+
+    .tituloequipos {
+      text-align: center;
+    }
+
+    .theadequipos {
+      padding: 1.2rem;
+      display: table-header-group;
+
+      .ththead {
+        text-align: center;
+        opacity: 0.6;
+        padding: 1.2rem;
+        border-bottom: 1px solid $colorbanfield;
+      }
+    }
+
+    .tbodyequipos {
+      display: table-row-group;
+
+      .trtbody {
+        display: table-row;
+
+        .tdtbody {
+          padding: 1.2rem;
+          text-align: center;
+        }
+
+        .tdtbodynum {
+          text-align: center;
+          padding: 1.2rem;
+          color: $colorbanfield;
+        }
+      }
+    }
+  }
+}

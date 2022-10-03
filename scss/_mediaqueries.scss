@@ -1,11 +1,10 @@
 @media screen and (max-width: 1480px) {
-  .maintitulos{
-    .proxpartidos{
+  .maintitulos {
+    .proxpartidos {
       justify-content: start;
     }
   }
 }
-
 
 @media screen and (max-width: 992px) {
   .bodycalendario {
@@ -39,19 +38,17 @@
     }
   }
 
-  .estadisticasgenero{
+  .estadisticasgenero {
     justify-content: center;
     margin: 20px 0 20px 0;
   }
 }
 
-
 @media screen and (max-width: 768px) {
-
-  .flexlinks{
+  .flexlinks {
     overflow: auto;
     justify-content: start;
-    ul{
+    ul {
       margin-left: 1rem;
       margin-right: 1rem;
     }
@@ -72,11 +69,11 @@
   }
 
   .maintitulos {
-    .proxpartidos{
+    .proxpartidos {
       overflow: auto;
       justify-content: start;
     }
-    .titulos{
+    .titulos {
       font-size: 27px;
     }
     .overflow {
@@ -94,7 +91,7 @@
     }
   }
 
-  .flexequipos{
+  .flexequipos {
     margin-top: 30px;
     margin-left: 10px;
   }
@@ -120,58 +117,60 @@
 
   .posiciones {
     flex-direction: column;
-    h5{
+    h5 {
       padding-top: 30px;
     }
   }
 
-  .footer{
-    .avisolegal{
+  .footer {
+    .avisolegal {
       font-size: 13px;
+    }
+  }
+  .tablaflex {
+    .tablaequipos {
+      .theadequipos {
+        padding: 0px;
+        .ththead {
+          padding: 0px;
+        }
+      }
     }
   }
 }
 
-
 @media screen and (max-width: 480px) {
-
-  .tituloLogo-menu{
-    .tituloLogo{
+  .tituloLogo-menu {
+    .tituloLogo {
       padding: 10px;
-      .logo__titulo{
-        .logo{
+      .logo__titulo {
+        .logo {
           width: 50px;
         }
-        .tituloSubtitulo{
-          .titulo{
+        .tituloSubtitulo {
+          .titulo {
             font-size: 20px;
-            .banfieldVoley{
+            .banfieldVoley {
               font-size: 20px;
             }
           }
-          .subtitulo{
+          .subtitulo {
             display: none;
           }
         }
       }
-      .logoathix{
+      .logoathix {
         width: 80px;
       }
     }
   }
 
-
-
-
-
-
-
   .maintitulos {
     padding: 0px;
-    .titulos{
+    .titulos {
       font-size: 25px;
     }
-    .proxpartidos{
+    .proxpartidos {
       justify-content: start;
     }
     .overflow {
@@ -197,43 +196,41 @@
     }
   }
 
-
-
-  .footer{
-    .footers{
+  .footer {
+    .footers {
       gap: 10px;
       padding-bottom: 10px;
       flex-direction: column;
       background-color: $colorbanfield;
-      .footer_uno{
+      .footer_uno {
         justify-content: center;
         width: 90vw;
         border-bottom: 1px solid $colorsecundariobanfield;
         padding-bottom: 10px;
         gap: 0;
-        .logo__footer{
-          padding-top:10px ;
+        .logo__footer {
+          padding-top: 10px;
           width: 50px;
         }
-        .footernombres{
-          .banfieldVoley{
+        .footernombres {
+          .banfieldVoley {
             display: none;
           }
-          .subtitulo{
+          .subtitulo {
             display: none;
           }
         }
       }
-      .footer_dos{
-        .seguinos{
+      .footer_dos {
+        .seguinos {
           font-size: 25px;
         }
-        .redes{
+        .redes {
           gap: 50px;
         }
       }
     }
-    .avisolegal{
+    .avisolegal {
       background-color: $colorbanfield;
       font-size: 10px;
       padding-bottom: 15px;

@@ -526,7 +526,11 @@ html {
     .posiciones h5 {
       padding-top: 30px; }
   .footer .avisolegal {
-    font-size: 13px; } }
+    font-size: 13px; }
+  .tablaflex .tablaequipos .theadequipos {
+    padding: 0px; }
+    .tablaflex .tablaequipos .theadequipos .ththead {
+      padding: 0px; } }
 
 @media screen and (max-width: 480px) {
   .tituloLogo-menu .tituloLogo {
